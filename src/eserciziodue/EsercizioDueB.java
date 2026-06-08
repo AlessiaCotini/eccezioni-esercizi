@@ -14,7 +14,8 @@ public class EsercizioDueB {
             System.out.println("Ora inserisci i litri di benzina consumati : ");
             double litri = scanner.nextDouble();
             double risultato = chilometri/litri;
-            if (litri == 0.0 | litri==0) throw new InputMismatchException();
+            //RICORDARE
+            if (Double.isInfinite(risultato)) throw new InputMismatchException();
             System.out.println("Con un litro hai percorso " + risultato + "km");
         } catch (Exception e) {
             System.out.println("Il numero di litri deve essere definito.");
