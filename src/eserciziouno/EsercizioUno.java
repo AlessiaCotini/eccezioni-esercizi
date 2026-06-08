@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class EsercizioUno {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Inserisci cinque numeri da uno a dieci");
+        System.out.println("Inserisci cinque numeri");
             int primo = scanner.nextInt();
             int secondo = scanner.nextInt();
             int terzo = scanner.nextInt();
