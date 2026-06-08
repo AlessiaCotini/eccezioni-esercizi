@@ -6,7 +6,7 @@ public class EsercizioTre{
         ContoOnLine contoOnLine = new ContoOnLine("RobertSmith",54879.24,220.0);
         try{
             //----------CONTO IN ROSSO---------------
-            conto.preleva(28.0);
+            conto.preleva(27.2);
             conto.getSaldo();
             //----------PRELIEVO NON DISPONIBILE-----
             contoOnLine.preleva(60000.30);
